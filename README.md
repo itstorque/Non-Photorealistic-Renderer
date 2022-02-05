@@ -6,16 +6,6 @@ and some examples of the main code below. There are more features and how to use
 
 <table>
 <tr>
-<td> <img src="./Input/unsplash_photos/unsplash_3.png"  alt="1" width = 100%></td>
-
-<td><img src="./Output/unsplash_3_gamma.png" alt="2" width = 100%></td>
-</tr>
-<tr>
-<td> <img src="./Input/unsplash_photos/unsplash_1.png"  alt="1" width = 100%></td>
-
-<td><img src="./Output/unsplash_1_gamma.png" alt="2" width = 100%></td>
-</tr>
-<tr>
 <td> <img src="./Input/unsplash_photos/unsplash_5.png"  alt="1" width = 100%></td>
 
 <td><img src="./Output/unsplash_5_gamma.png" alt="2" width = 100%></td>
@@ -29,6 +19,16 @@ and some examples of the main code below. There are more features and how to use
 <td> <img src="./Input/unsplash_photos/unsplash_7.png"  alt="1" width = 100%></td>
 
 <td><img src="./Output/unsplash_7_gamma.png" alt="2" width = 100%></td>
+</tr>
+<tr>
+<td> <img src="./Input/unsplash_photos/unsplash_3.png"  alt="1" width = 100%></td>
+
+<td><img src="./Output/unsplash_3_gamma.png" alt="2" width = 100%></td>
+</tr>
+<tr>
+<td> <img src="./Input/unsplash_photos/unsplash_1.png"  alt="1" width = 100%></td>
+
+<td><img src="./Output/unsplash_1_gamma.png" alt="2" width = 100%></td>
 </tr>
 </table>
 
