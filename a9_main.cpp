@@ -579,7 +579,7 @@ void recolorNightDay() {
 void unsplashPhotosGammaMod() {
   // test paintMultiBrush on the unsplash photos
 
-  vector<string> targets = {"9"};
+  vector<string> targets = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
 
   for (string target: targets) {
 
