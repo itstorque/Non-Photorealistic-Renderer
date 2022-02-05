@@ -583,10 +583,10 @@ void unsplashPhotosGammaMod() {
 
   for (string target: targets) {
 
-    Image im = Image("./Input/unsplash_photos/unsplash_"+target+"_gamma.png");
+    Image im = Image("./Input/unsplash_photos/unsplash_"+target+".png");
 
     Image out = paintMultiBrush(im);
-    out.write("Output/unsplash-"+target+".png");
+    out.write("Output/unsplash_"+target+"_gamma.png");
 
   }
 
@@ -602,7 +602,7 @@ void applePhotosGammaMod() {
     Image im = Image("./Input/apple_photos/"+target+".png");
 
     Image out = paintMultiBrush(im);
-    out.write("Output/apple-"+target+"_gamma.png");
+    out.write("Output/apple_"+target+"_gamma.png");
 
   }
 
