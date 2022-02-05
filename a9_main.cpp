@@ -576,6 +576,38 @@ void recolorNightDay() {
 
 }
 
+void unsplashPhotosGammaMod() {
+  // test paintMultiBrush on the unsplash photos
+
+  vector<string> targets = {"9"};
+
+  for (string target: targets) {
+
+    Image im = Image("./Input/unsplash_photos/unsplash_"+target+"_gamma.png");
+
+    Image out = paintMultiBrush(im);
+    out.write("Output/unsplash-"+target+".png");
+
+  }
+
+}
+
+void applePhotosGammaMod() {
+  // test paintMultiBrush on the apple photos
+
+  vector<string> targets = {"1", "2", "3", "4"};
+
+  for (string target: targets) {
+
+    Image im = Image("./Input/apple_photos/"+target+".png");
+
+    Image out = paintMultiBrush(im);
+    out.write("Output/apple-"+target+"_gamma.png");
+
+  }
+
+}
+
 int main()
 {
     // There are a couple of functions, and some extra code not put in a
@@ -587,19 +619,15 @@ int main()
 
     // I commeneted out the ones that produce more than 20 photos per run and aren't useful.
 
-    Image imR = Image("./Input/china_cheat.png");
-    Image imM = Image("./Input/liz_mask.png");
-    Image imL = Image("./Input/liz.png");
+    recolorNightDay();
 
-    cout << "ee" << endl;
+    applePhotosGammaMod();
 
-    // Image tensor2 = computeTensor(imR);
-    Image tensor2 = addSubjectPainting(imR);
-    // maxi = tensor2.max();
-    // tensor2 = tensor2 / maxi;
-    tensor2.write("./Output/testround.png");
+    unsplashPhotosGammaMod();
 
     return EXIT_SUCCESS;
+
+    // SKIPPED: run all the tests here
 
     // Basic testing functions
     testBrush();
